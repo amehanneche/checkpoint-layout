@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* navigation bar */
+header.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background: white;
+    
+
+
+}
+
+nav.nav {
+    margin: 0;
+    padding-left: 10px;
+    margin-left: 15%;
+    
+}
+nav.nav img {
+height: 50px;
+width: 250px;
+}
+nav.menu {
+    display: flex;
+    margin-right: 10%;
+}
+nav.menu  a {
+    text-decoration: none;
+    color: grey;
+    
+}
+nav.menu a:hover{
+    color: turquoise;
+}
+nav.menu  a span {
+    text-decoration: none;
+    color:#38d9a9;
+    
+    
+}
+/*  about us */
+
+.About-us {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+
+}
+.top h1 {
+    color:#38d9a9;
+    font-weight: 0;
+}
+.top-page {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.texte-1 {
+    display: block;
+    box-sizing: 50px;
+    padding: 10px;
+    margin-left: 15%;
+    line-height: 150%;
+}
+.texte-2 {
+    display: block;
+    padding: 10px;
+    margin-right: 15%;
+    line-height: 150%;
+}
+/* box */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.patients {
+    height: 320px;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:#38d9a9;;
+    color: white;
+    font-size: 25px;
+}
+.patients a {
+    color: white;
+    font-size: 20px;
+}
+.for-patients {
+    padding: 15px;
+}
+.doctors {
+    height: 320px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: royalblue;
+}
+.doctors a {
+    color: white;
+    font-size: 20px;
+}
+.for-doctors {
+    padding: 15px;
+}
+.clinics {
+    height: 320px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(1, 1, 36);
+}
+.clinics a {
+    color: white;
+    font-size: 20px;
+}
+.for-clinics {
+    padding: 15px;
+}
